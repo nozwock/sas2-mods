@@ -1,6 +1,6 @@
 Makes it so that the Mages drop at least one of each of their loot.
 
-It seems to be work for the Nameless and other hunts as well in my limited testing.
+It seems to work for the Nameless and other hunts as well in my limited testing.
 
 # Installation
 
