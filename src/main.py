@@ -42,9 +42,14 @@ if __name__ == "__main__":
         loot = json.loads(f.read())
 
     faction_token_pat = re.compile(r"^token_")
+    memory_item_pat = re.compile(r"^artmat_")
 
     for i, item in enumerate(loot):
-        if item["tokenCost"] and not faction_token_pat.search(item["name"]):
+        if (
+            item["tokenCost"]
+            and not faction_token_pat.search(item["name"])
+            and not memory_item_pat.search(item["name"])
+        ):
             print(f"{i}, {item["name"]}: {item["tokenCost"]} -> 0", file=sys.stderr)
             item["tokenCost"] = 0
 
