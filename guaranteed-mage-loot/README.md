@@ -1,3 +1,5 @@
+![](https://github.com/user-attachments/assets/3d2d8762-ff66-47b6-abdf-4e9a0cc95955)
+
 Makes it so that the Mages drop at least one of each of their loot.
 
 It seems to work for the Nameless and other hunts as well in my limited testing.
