@@ -1,4 +1,4 @@
-# Salt and Sanctuary Mods
+# Salt and Sacrifice Mods
 
 A mono-repo for small mods.
 
